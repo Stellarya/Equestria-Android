@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Equistria</string>
+    <string name="edit_message">Entrez un message</string>
+    <string name="button_send">Envoyez</string>
 </resources>
