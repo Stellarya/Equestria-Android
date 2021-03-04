@@ -11,8 +11,6 @@
         android:name=".MainApplication"
         android:theme="@style/Theme.Equistria">
 
-        <activity android:name=".vue.ListeChevauxActivity"></activity>
-
         <activity android:name=".vue.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

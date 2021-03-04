@@ -9,9 +9,9 @@ import java.util.*
 
 @Entity
 data class Cheval(
-    @PrimaryKey(autoGenerate = true) val uid: Int,
+    @PrimaryKey(autoGenerate = true) val uid: Int? = null,
     val nom: String,
-    val affixe: String,
+    val affixe: String?,
     val race: String,
     val robe: String,
     val dateNaissance: LocalDate,
